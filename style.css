@@ -19,6 +19,28 @@ body {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
 }
 
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.highlight {
+    background-color: #FFEB3B; /* Fondo amarillo */
+    padding: 2px 5px;
+    font-weight: bold;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+.highlight-name {
+    background-color: #FFEB3B; /* Fondo amarillo */
+    padding: 2px 5px;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 10px;
+    display: inline-block;
+}
+
 h1 {
     background-color: #fefe02; /* Fondo amarillo */
     display: inline-block; /* Solo el fondo amarillo alrededor del texto */
