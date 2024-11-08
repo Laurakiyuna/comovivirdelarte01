@@ -19,25 +19,21 @@ body {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
 }
 
-.header {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 1.5em; /* Ajusta el tamaño de la fuente según lo necesites */
-}
-
-
-.highlight-name::after {
-    content: "";
+.header-left {
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 5.3em; /* Ajusta el grosor del subrayado */
-    background-color: #FFEB3B; /* Color amarillo */
-    z-index: -1; /* Envía el subrayado detrás del texto */
+    top: 20px;
+    left: 20px;
+    font-size: 1.2em; /* Ajusta el tamaño de la fuente si es necesario */
 }
 
-
+.underline-name {
+    font-weight: bold;
+    font-size: 1.2em; /* Tamaño de la fuente */
+    text-decoration: underline; /* Aplica subrayado */
+    text-decoration-color: #FFEB3B; /* Color amarillo del subrayado */
+    text-decoration-thickness: 0.15em; /* Grosor del subrayado */
+    text-underline-offset: 0.1em; /* Espacio entre el texto y el subrayado */
+}
 
 
 
@@ -51,13 +47,6 @@ p {
     line-height: 1.6;
     font-size: 1.1em;
     margin-bottom: 20px;
-}
-
-.highlight {
-    background-color: #fefe02; /* Resaltado amarillo */
-    display: inline-block;
-    padding: 2px 5px;
-    font-weight: bold;
 }
 
 
