@@ -21,12 +21,12 @@ body {
 
 .header {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 20px;
 }
 
 .highlight {
     background-color: #FFEB3B; /* Fondo amarillo */
-    padding: 12px 5px;
+    padding: 12px 500px;
     font-weight: bold;
     font-size: 1.5em;
     display: inline-block;
