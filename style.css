@@ -32,7 +32,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 0.3em; /* Ajusta el grosor del subrayado */
+    height: 5.3em; /* Ajusta el grosor del subrayado */
     background-color: #FFEB3B; /* Color amarillo */
     z-index: -1; /* Envía el subrayado detrás del texto */
 }
