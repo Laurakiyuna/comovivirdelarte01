@@ -28,8 +28,8 @@ body {
     font-weight: bold;
     font-size: 1em; /* Igual tamaño que el cuerpo del texto */
     text-decoration: underline;
-    text-decoration-color: #FFEB3B;
-    text-decoration-thickness: 0.15em;
+    text-decoration-color: #fefe02;
+    text-decoration-thickness: 0.30em;
     text-underline-offset: 0.1em;
     color: #000;
 }
