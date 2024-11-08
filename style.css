@@ -25,20 +25,6 @@ body {
     font-size: 1.5em; /* Ajusta el tamaño de la fuente según lo necesites */
 }
 
-.highlight {
-    background-color: #FFEB3B; /* Fondo amarillo */
-    padding: 2px 5px;
-    font-weight: bold;
-    font-size: 1em;
-    display: inline-block;
-}
-
-.highlight-name {
-    position: relative;
-    font-weight: bold;
-    font-size: 1em;
-    display: inline-block;
-}
 
 .highlight-name::after {
     content: "";
